@@ -10,7 +10,7 @@ def student_info(name, age, course):
     print("Course:", course)
 
 # Calling using keyword arguments
-student_info(course="Python", name="Rahul", age=20)
+student_info(course="Python", name="Rahul", age=20)  
 def add(a, b):
     return a + b
 
@@ -19,4 +19,6 @@ def operate(func, x, y):
 
 # Passing add function to operate
 result = operate(add, 10, 5)
+
+
 print("Result:", result)
